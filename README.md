@@ -5,19 +5,18 @@ It talks to the backend through REST APIs and uses modern UI patterns, offline c
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - React (Vite)
 - Redux Toolkit (state management)
 - React Router
 - Axios (API calls)
-- TailwindCSS (styling)
 - PWA Service Worker
 - Jest + React Testing Library (tests)
 
 ---
 
-## 📦 How to Clone and Run the Frontend
+## How to Clone and Run the Frontend
 
 ### 1. Clone the Repository
 
