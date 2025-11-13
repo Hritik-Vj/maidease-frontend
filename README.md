@@ -11,7 +11,7 @@ It talks to the backend through REST APIs and uses modern UI patterns, offline c
 - Redux Toolkit (state management)
 - React Router
 - Axios (API calls)
-- PWA Service Worker
+- PWA
 - Jest + React Testing Library (tests)
 
 ---
