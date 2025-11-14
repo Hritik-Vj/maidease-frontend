@@ -5,7 +5,7 @@ It communicates with the backend via REST APIs and supports offline caching thro
 
 ---
 
-## 🎨 Tech Stack
+## Tech Stack
 - React (with Vite)
 - Redux Toolkit (state management)
 - React Router
@@ -16,14 +16,14 @@ It communicates with the backend via REST APIs and supports offline caching thro
 
 ---
 
-## 📌 How the Frontend Works (System Flow Explained)
+## How the Frontend Works (System Flow Explained)
 
 ### 🏁 1. Landing Page → Login / Signup
 - New users can register as Customer or Maid.
 - Existing users log in and receive a JWT token.
 - The token is stored in `localStorage`.
 
-### 🧭 2. Role-Based Dashboards
+### 2. Role-Based Dashboards
 After login, the UI redirects based on role:
 
 #### **Customer Dashboard**
@@ -40,19 +40,19 @@ After login, the UI redirects based on role:
 - Accept or reject requests  
 - View job history and customer reviews  
 
-### 🔗 3. API Communication
+### 3. API Communication
 - Axios handles API calls.
 - JWT token added automatically to request headers.
 - API errors are displayed as user-friendly messages.
 
-### 📱 4. PWA Features
+### 4. PWA Features
 - Add to Home Screen  
 - Offline caching for static assets  
 - Faster load times even on slow networks  
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 src/
 ├─ components/
 ├─ pages/
