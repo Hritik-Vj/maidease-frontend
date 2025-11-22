@@ -69,7 +69,7 @@ export const BookingForm = () => {
       setSuccess(true);
       setTimeout(() => {
         navigate('/bookings');
-      }, 2000);
+      });
     } catch (err) {
       const errorMessage = err.message || getApiErrorMessage(err);
       setError(errorMessage);
