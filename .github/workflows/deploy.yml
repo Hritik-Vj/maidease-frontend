@@ -32,6 +32,9 @@ jobs:
           username: ${{ secrets.EC2_FRONTEND_USER }}
           key: ${{ secrets.EC2_FRONTEND_SSH_KEY }}
           script: |
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            
             cd /home/ubuntu/maidease-frontend
             git fetch origin
 
